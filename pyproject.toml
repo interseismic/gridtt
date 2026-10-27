@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridtt"
+version = "0.1.0"
+description = "Differentiable 3-D travel-time tables (factored FMM + Catmull-Rom tricubic) for SPIDER"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "pandas", "torch", "pyproj", "eikonalfm"]
+
+[project.scripts]
+gridtt = "gridtt.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,2 @@
+[console_scripts]
+gridtt = gridtt.cli:main

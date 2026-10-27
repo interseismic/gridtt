@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/gridtt/__init__.py
+src/gridtt/build.py
+src/gridtt/cli.py
+src/gridtt/operator.py
+src/gridtt/spider.py
+src/gridtt/spider_hook.py
+src/gridtt/validate.py
+src/gridtt/velocity.py
+src/gridtt.egg-info/PKG-INFO
+src/gridtt.egg-info/SOURCES.txt
+src/gridtt.egg-info/dependency_links.txt
+src/gridtt.egg-info/entry_points.txt
+src/gridtt.egg-info/requires.txt
+src/gridtt.egg-info/top_level.txt
+tests/test_gridtt.py
